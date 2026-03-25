@@ -1,4 +1,4 @@
-🇭🇺 [Magyar verzió](README_hu.md)
+🇭🇺 [Magyar verzió](README.HU.md)
 # Knowledge-injection-ai
  AI should not remember. Your system should.
 
