@@ -50,7 +50,7 @@ knowledge/ → prompt builder → LLM → validáció → eredmény
   - rules.md
   - validation.md
   - task.md
-- main.py
+- prompt_builder.py
 
 ---
 

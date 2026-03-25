@@ -47,7 +47,7 @@ knowledge/ -> prompt builder -> LLM -> validation -> result
   - rules.md
   - validation.md
   - task.md
-- main.py
+- prompt_builder.py
 
 ---
 
