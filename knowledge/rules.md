@@ -5,5 +5,8 @@ always make readme.md
 
 create documentation 
 
-use peps8 100%
-make project.toml
+Follow PEP 8
+make pyproject.toml
+
+add method descripitons
+add class descripitons

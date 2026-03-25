@@ -3,7 +3,9 @@
 
 A simple concept for providing structured knowledge to AI systems at runtime.
 
-This repository explores an alternative to model training: instead of teaching the model permanently, the system provides the required knowledge for each task in a structured way.
+This repository explores an alternative to model training: instead of teaching 
+the model permanently, the system provides the required knowledge for each 
+task in a structured way.
 
 The injected knowledge includes:
 - rules
@@ -12,9 +14,28 @@ The injected knowledge includes:
 - examples
 - task definition
 
-This makes the behavior of the AI system easier to control, inspect, and compare across models.
+This makes the behavior of the AI system easier to control,
+inspect, and compare across models.
+
+## Why not fine-tuning?
+
+- hard to control
+- not auditable
+- not versionable
+
+## Why runtime knowledge?
+
+- controllable
+- testable
+- model independent
+
 
 ---
+## use case archtecture
+knowledge/ -> prompt builder -> LLM -> validation -> result
+
+## How it works
+
 
 ## Repository structure
 
