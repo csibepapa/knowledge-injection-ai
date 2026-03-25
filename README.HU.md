@@ -81,8 +81,7 @@ Meghatározza, mit tekintünk helyes kimenetnek.
 from prompt_builder import build_prompt
 
 prompt = build_prompt(
-    knowledge_path="knowledge",
-    input_text="user: Alice"
+    knowledge_path="knowledge"
 )
 
 print(prompt)
