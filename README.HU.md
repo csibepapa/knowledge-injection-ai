@@ -87,5 +87,5 @@ prompt = build_prompt(
 print(prompt)
 ```
 ## Jó ha tudod
-Ha az LLM támogatja az anyanyelvedet, akkor azon is használhatod.
+Ha az LLM támogatja az anyanyelvedet, akkor azon is használhatod.  
 Magyarul is kipróbáltam, és jól működött.
