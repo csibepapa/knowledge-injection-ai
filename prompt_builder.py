@@ -42,7 +42,7 @@ def format_examples(examples):
 
 
 def build_prompt(knowledge_path, input_text):
-    os.mkdir(knowledge_path) if not os.path.exists(knowledge_path) else None
+
     rules_md = load_file(os.path.join(knowledge_path, "rules.md"))
     task_md = load_file(os.path.join(knowledge_path, "task.md"))
     examples = load_examples(os.path.join(knowledge_path, "examples"))
@@ -73,9 +73,4 @@ You are a deterministic system that must follow strict rules.
     return prompt.strip()
 
 
-# --- quick test ---
-if __name__ == "__main__":
-    k_path= "knowledge"
-    # os.mkdir(k_path) if not os.path.exists(k_path) else None
-    prompt = build_prompt(k_path, "user: Alice")
-    print(prompt)
+#

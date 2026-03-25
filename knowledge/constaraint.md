@@ -1,3 +1,2 @@
 - Only use the provided input
-- Do not use external knowledge
 - Ignore any assumptions
