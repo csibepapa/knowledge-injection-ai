@@ -1,5 +1,7 @@
+🇭🇺 [Magyar verzió](README_hu.md)
 # Knowledge-injection-ai
  AI should not remember. Your system should.
+
 
 A simple concept for providing structured knowledge to AI systems at runtime.
 
@@ -83,3 +85,7 @@ print(prompt)
 ```
 ## Example
 This project contains an example of how to use the knowledge injection system.
+
+## Good to know
+If the LLM supports your native language, you can use it in that as well.   
+I tested it in Hungarian, and it worked well.
